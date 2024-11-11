@@ -1,93 +1,117 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body, html{
+
+body,
+html {
     height: 100%;
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: #d9e3f0 ;
+
+body {
+    background-image: url(img/DALL·E\ 2024-11-11\ 10.42.51\ -\ A\ background\ image\ for\ a\ health-related\ website\ with\ a\ white\ gradient\ at\ the\ top.\ The\ main\ area\ of\ the\ image\ features\ soft\,\ soothing\ tones\ like\ light\ .jpg);
+    background-size: cover;
+    /* Faz a imagem ocupar toda a tela */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    background-position: center top;
+    /* Alinha a imagem ao topo e ao centro */
+    background-attachment: fixed;
+    /* Mantém a imagem fixa ao rolar a página */
 }
-#sus{
+
+#sus {
     max-height: 60px;
 }
+
 header {
-    background: linear-gradient(#0056b3, #d9e3f0);
+    background: linear-gradient(#f2f2f282, #b7bfa448);
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
     align-items: center;
 }
-h1{
+
+h1 {
+    margin-top: 20px;
     padding: 20px;
-    color:#004085 ;
+    color: #3E4095;
 }
-form{
+
+form {
     display: flex;
     width: 500px;
     flex-direction: column;
     padding: 20px 50px 30px;
     gap: 10px;
 }
-form input{
+
+form input {
     height: 40px;
     border-radius: 10px;
-    background: linear-gradient(to right, #acd0ff, #ffffff);
+    background: linear-gradient(to right, #B7BFA4, #F2F2F2);
     border: 1px solid;
     padding: 10px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     margin-top: 1.5em;
     width: 200px;
     align-self: center;
-    background: linear-gradient(to right, #234e7cb1, #c3e3c4c3);
+    background: linear-gradient(to right, #6F9CA6, #B7BFA4);
     border: 1px solid;
     transition: 0.3s ease;
     cursor: pointer;
 }
-input[type="submit"]:hover{
-    background: linear-gradient(to right, #5784b5, #83bd85);
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #B7BFA4, #f2f2f2a2);
     border: solid 2px #004085;
     color: #4c4c4c;
 }
-h2{
+
+h2 {
     margin-top: -30%;
     text-align: end;
     padding: 30px;
     margin-right: 11.3rem;
     font-size: 2em;
-    color: #004085;
+    color: #3E4095;
 }
 
-table{
+table {
     display: flex;
     justify-content: flex-end;
     border: 0;
     margin-right: 9rem;
 }
-table th, table td{
-    border: solid 2px #004085;
+
+table th,
+table td {
+    border: solid 2px #3E4095;
     padding: 5px;
 }
-table a{
+
+table a {
     text-decoration: none;
     color: #000000;
     padding: 5px;
 }
 
-.cancel{
+.cancel {
     color: #000000;
     text-decoration: none;
     padding: 7px;
     margin-left: 50px;
-    background-color: #0057b34d;
+    background-color: #B7BFA4;
     border-radius: 7px;
 }
-.cancel:hover{
-    background-color: #007bff35;
+
+.cancel:hover {
+    background-color: #f2f2f2a2;
     color: #4f4f4f;
 }
