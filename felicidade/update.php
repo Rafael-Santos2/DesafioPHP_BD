@@ -41,6 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label>Gênero:</label>
         <input type="text" name="genero" value="<?php echo $feliz['genero']; ?>" required>
 
+        <label>Data de Nascimento</label>
         <input type="date" name="data_de_nascimento" value="<?php echo $feliz['data_de_nascimento']; ?>">
         <input type="submit" value="Atualizar">
     </form>
