@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $idade = $_POST['idade']; // Recebe a nova idade
     $genero = $_POST['genero']; // Recebe o novo genero
     $nascimento = $_POST['data_de_nascimento']; // Recebe a nova data de nascimento
-    $sql = "UPDATE feliz SET idade='$idade', genero='$genero' data_de_nascimento='$nascimento' WHERE id=$id"; // Prepara a atualização
+    $sql = "UPDATE feliz SET idade='$idade', genero='$genero', data_de_nascimento='$nascimento' WHERE id=$id"; // Prepara a atualização
 
     if ($conn->query($sql) === TRUE) {
         header("Location: index.php"); // Redireciona se a atualização for bem-sucedida
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <h1>Atualizar Usuário</h1>
-    <form action="" method="POST">
+    <form method="POST">
         <label>Idade:</label>
         <input type="number" name="idade" value="<?php echo $feliz['idade']; ?>" required>
 

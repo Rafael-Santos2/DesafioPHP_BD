@@ -87,7 +87,7 @@ table {
     display: flex;
     justify-content: flex-end;
     border: 0;
-    margin-right: 9rem;
+    margin-right: -8rem;
 }
 
 table th,
@@ -114,4 +114,9 @@ table a {
 .cancel:hover {
     background-color: #f2f2f2a2;
     color: #4f4f4f;
+}
+
+div{
+    text-align: end;
+    margin-right: 17rem;
 }
