@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-image: url(img/DALL·E\ 2024-11-11\ 10.42.51\ -\ A\ background\ image\ for\ a\ health-related\ website\ with\ a\ white\ gradient\ at\ the\ top.\ The\ main\ area\ of\ the\ image\ features\ soft\,\ soothing\ tones\ like\ light\ .jpg);
+    background-image: url(img/DALL·E\ 2024-11-11\ 10.42.51\ -\ A\ background\ image\ for\ a\ health-related\ website\ with\ a\ white\ gradient\ at\ the\ top.\ The\ main\ area\ of\ the\ image\ features\ soft\,\ soothing\ tones\ like\ light\ .webp);
     background-size: cover;
     /* Faz a imagem ocupar toda a tela */
     background-repeat: no-repeat;
@@ -88,6 +88,7 @@ table {
     justify-content: flex-end;
     border: 0;
     margin-right: -8rem;
+    text-align: center;
 }
 
 table th,
